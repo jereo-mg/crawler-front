@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test';
+  result: number;
+
+  constructor(){
+
+  }
+
+  addition(a: number, b: number): number{
+    return a + b;
+  }
 }
