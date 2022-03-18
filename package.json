@@ -8,7 +8,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "ng": "node_modules\\.bin\\ng",
-    "deploy": "ng deploy --base-href=/"
+    "deploy": "ng build --prod --base-href=/crawler-front/"
   },
   "private": true,
   "dependencies": {
