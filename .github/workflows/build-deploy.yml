@@ -1,9 +1,9 @@
-name: Build and Deploy
+name: Build and Deploy Angular
 
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
