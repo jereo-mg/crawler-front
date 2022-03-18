@@ -27,11 +27,12 @@ jobs:
       run: |
         echo "--------------Checking Began-------------------"
         ls
+        echo "--------------Checking dist-------------------"
+        ls dist/
         echo "--------------Checking End-------------------"
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        # FOLDER: dist/crawler-front
-        FOLDER: dist/
+        FOLDER: dist/crawler-front
