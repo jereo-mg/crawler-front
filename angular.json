@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "test": {
+    "crawler-front": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/test",
+            "outputPath": "dist/crawler-front",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -126,7 +126,7 @@
       }
     }
   },
-  "defaultProject": "test",
+  "defaultProject": "crawler-front",
   "cli": {
     "analytics": "c8ae2fcb-dd95-4d33-a898-4ade013897a5"
   }
